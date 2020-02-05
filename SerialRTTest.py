@@ -66,7 +66,7 @@ if str_func == "0":
         print("-----写gbk编码字符串结束----------")
         print("")
     
-        #十六进制发送
+        #十六进制发送，验证上传
         #print("-----写16进制字符开始-----")
         #result = ser.write(chr(0x06).encode("utf-8"))
         #print("写16进制字节总数：",result)
